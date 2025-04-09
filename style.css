@@ -239,6 +239,7 @@ label, a{
     display: inline-block;
     width: 15px;
     height: 15px;
+    background: #082C3B;
     /* сюда можно цвет фона засунуть*/
 }
 #active{
