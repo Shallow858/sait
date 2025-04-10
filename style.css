@@ -131,6 +131,10 @@ a{
     display: flex;
     flex-direction: column;
 }
+.kartinki{
+    width: 80%;
+    height: auto;
+}
 .stroka1{
     display: flex;
     justify-content: space-around;
