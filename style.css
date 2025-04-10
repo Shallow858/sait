@@ -2,6 +2,13 @@
 body{
     margin:0;
 }
+header{
+    display: flex;
+    justify-content: space-around;
+    height: max-content;
+    background-color: #003311;
+    color: white;
+}
 h1{
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
@@ -9,13 +16,6 @@ h1{
     font-size: 60px;
     line-height: 56px;
     color: #000000;
-}
-header{
-    display: flex;
-    justify-content: space-around;
-    height: max-content;
-    background-color: #006400;
-    color: white;
 }
 nav{
     display: flex;
@@ -34,8 +34,8 @@ nav{
 }
 
 main{
-    background-image: url('images/tile_background\ \(2\).png');
-    
+    /*background-image: url('images/tile_background\ \(2\).png'); */
+    background-color: aliceblue;
 }
 p{
     font-family: 'Ubuntu', sans-serif;
@@ -159,118 +159,7 @@ a{
     padding-top:20px;
 }
 
-/*слайдер*/
-#slider{
-    position: relative;
-    text-align: center;
-}
-#slider{
-    margin: 0 auto;
-}
-#slides article{
-    width: 20%;
-    float: left;
-}
-#slides .newimage{
-    width: 50%;
-    line-height: 0;
-}
-#overflow{
-    width: 100%;
-    overflow: hidden;
-}
-article img{
-    width: 100%;
-}
-#desktop:checked ~ #slider{
-    max-width: 960px;
-}
-#switch1:checked ~ #controls label:nth-child(5),
-#switch2:checked ~ #controls label:nth-child(1),
-#switch3:checked ~ #controls label:nth-child(2),
-#switch4:checked ~ #controls label:nth-child(3),
-#switch5:checked ~ #controls label:nth-child(4){
-    background: url("images/left.png") no-repeat;
-    float: left;
-    margin: 0 0 0 -84px;
-    display: block;
-    height: 68px;
-    width: 68px;
-}
-#switch5:checked ~ #controls label:nth-child(2),
-#switch1:checked ~ #controls label:nth-child(3),
-#switch2:checked ~ #controls label:nth-child(4),
-#switch3:checked ~ #controls label:nth-child(5),
-#switch4:checked ~ #controls label:nth-child(1){
-    background: url("images/right.png") no-repeat;
-    float: right;
-    margin: 0 -84px 0 0 ;
-    display: block;
-    height: 68px;
-    width: 68px;
-}
 
-label, a{
-    cursor:pointer;
-}
-.all input{
-    display: none;
-}
-#switch1:checked ~ #slides .newimage{
-    margin-left: 0;
-}
-#switch2:checked ~ #slides .newimage{
-    margin-left: -100%;
-}
-#switch3:checked ~ #slides .newimage{
-    margin-left: -200%;
-}
-#switch4:checked ~ #slides .newimage{
-    margin-left: -300%;
-}
-#switch5:checked ~ #slides .newimage{
-    margin-left: -400%;
-}
-#controls{
-    margin: -25% 0 0 0;
-    width: 100%;
-    height: 50px;
-}
-#active label{
-    border-radius: 10px;
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    background: #004b19;
-    /* сюда можно цвет фона засунуть*/
-}
-#active{
-    margin: 23% 0 0;
-    text-align: center;
-
-}
-#active label:hover{
-    background: #006400;
-    border-color: #777 !important;
-
-}
-#switch1:checked ~ #active label:nth-child(1),
-#switch2:checked ~ #active label:nth-child(2),
-#switch3:checked ~ #active label:nth-child(3),
-#switch4:checked ~ #active label:nth-child(4),
-#switch5:checked ~ #active label:nth-child(5){
-    background: #228B22;
-    border-color:#228B22 !important;
-}
-#slides .newimage{
-    transition: all 800ms ease-out;
-}
-#controls label:hover{
-    opacity: 0.6;
-}
-#controls label{
-    transition: opasity 0,2s ease-out;
-}
 
 
 
