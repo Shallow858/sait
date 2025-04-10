@@ -7,7 +7,7 @@ header{
     justify-content: space-around;
     height: max-content;
     background-color: #003311;
-    color: white;
+    color:white;;
 }
 .headertext{
     color: white;
@@ -58,7 +58,7 @@ p{
     margin-right: 40px;
 }
 footer{
-    background-color: #082C3B; 
+    background-color: #003311; 
     padding: 10px;
     color:white; 
     font-size: 11px;
