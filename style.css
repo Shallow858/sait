@@ -16,6 +16,10 @@ header{
     width: 60%;
     height: auto;
 }
+.glavni{
+    width: 80%;
+    height: auto;
+}
 h1{
     font-family: 'Playfair Display', sans-serif;
     font-style: italic;
