@@ -38,14 +38,13 @@ nav{
 
 main{
     /*background-image: url('images/tile_background\ \(2\).png'); */
-    background-color: aliceblue;
+    background-color: #D7DEA9;
 }
 p{
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight:600;
     font-size:x-large;
-    
 }
 .cart{
     width: 215px;
@@ -122,7 +121,7 @@ a{
 }
 .dalee{
     font-family: 'Ubuntu', sans-serif;
-    color: rgba(153, 101, 135, 0.973); 
+    color: rgba(7, 83, 0, 0.973); 
     font-size: 14px;
     text-decoration:underline;
 }
