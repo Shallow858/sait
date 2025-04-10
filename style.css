@@ -12,6 +12,10 @@ header{
 .headertext{
     color: white;
 }
+.unike{
+    width: 60%;
+    height: auto;
+}
 h1{
     font-family: 'Playfair Display', sans-serif;
     font-style: italic;
@@ -40,7 +44,7 @@ nav{
 
 main{
     /*background-image: url('images/tile_background\ \(2\).png'); */
-    background-color: #8EE7E3;
+    background-color: #b3e6e3;
 }
 p{
     font-family: 'Playfair Display', sans-serif;
