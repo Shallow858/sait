@@ -9,6 +9,9 @@ header{
     background-color: #003311;
     color: white;
 }
+.headertext{
+    color: white;
+}
 h1{
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
