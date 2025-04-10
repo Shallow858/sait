@@ -139,6 +139,10 @@ a{
     display: flex;
     justify-content: space-around;
 }
+.stroka3{
+    display: flex;
+    justify-content: space-around;
+}
 .ivan{
     margin-left: 50px;
     margin-bottom: 0;
